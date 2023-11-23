@@ -50,7 +50,7 @@ const handler: APIGatewayProxyHandler = async (event: APIGatewayEvent, context: 
   };
 };
 
-export default handler;
+export { handler };
 
 async function getIPFunction() {
 
